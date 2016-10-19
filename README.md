@@ -7,6 +7,7 @@ book could be downloaded from the [author's homepage](https://webdocs.cs.ualbert
 This project is simply a test platform for education and fun. I hope you would like it.
 ## Description
 ![cliff walking](cliff.png)
+
 The agent should go from block *S* to block *G*. If the agent fall into 
 the cliff, it will get a return of -500. Otherwise it will get a return of -1 
 each step until it gets to the destination.
