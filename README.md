@@ -1,6 +1,6 @@
 CliffWalking
 ===
-A simple platform to play with reinforcement AI. 
+A simple platform to play with reinforcement learning AI. 
 This problem (cliff walking) problem is from *Reinforcement Learning: An Introduction (2nd edition)*. The draft of this 
 book could be downloaded from the [author's homepage](https://webdocs.cs.ualberta.ca/~sutton/).
 
