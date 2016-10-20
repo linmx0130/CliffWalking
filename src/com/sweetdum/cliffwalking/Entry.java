@@ -1,9 +1,6 @@
 package com.sweetdum.cliffwalking;
 
-import com.sweetdum.cliffwalking.ai.Human;
-import com.sweetdum.cliffwalking.ai.IPlayer;
-import com.sweetdum.cliffwalking.ai.ITrainablePlayer;
-import com.sweetdum.cliffwalking.ai.MonteCarloAI;
+import com.sweetdum.cliffwalking.ai.*;
 import com.sweetdum.cliffwalking.game.Governor;
 
 /**
@@ -24,7 +21,8 @@ public class Entry {
     public static void main(String args[]){
         Governor game = new Governor(4,10);
         //humanEntry(game);
-        ITrainablePlayer player = new MonteCarloAI(0.99, 0.99, -14,10000, game);
+        ITrainablePlayer player = new SarsaAI(0.01,0.5,0.1,0.1,2000,game);
         player.train();
+        System.out.println("Training finished!");
     }
 }
