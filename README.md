@@ -19,7 +19,7 @@ each step until it gets to the destination.
 
 ## TODO List
 * Q-learning AI
-* GUI for show the behavior of AIs.
+* A GUI to show the behavior of AIs.
 
 
 ## License
