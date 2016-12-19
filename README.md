@@ -14,11 +14,12 @@ each step until it gets to the destination.
 
 ## Reinforcement AI List
 * On-policy Monte Carlo epsilon-greedy AI (MonteCarloAI.java)
-* Sarsa: an on-policy TD control algorithm with epsilon-greedy policy. (Sarsa.java)
+* Sarsa: an on-policy TD control algorithm with epsilon-greedy policy. (SarsaAI.java)
+* Q-learning AI: an off-policy TD control algorithm with epsilon-greedy policy (QlearningAI.java)
 * Human Interface(Human.java)
 
 ## TODO List
-* Q-learning AI
+
 * GUI for show the behavior of AIs.
 
 

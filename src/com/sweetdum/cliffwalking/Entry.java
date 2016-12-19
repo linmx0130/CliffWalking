@@ -19,9 +19,11 @@ public class Entry {
         }
     }
     public static void main(String args[]){
-        Governor game = new Governor(4,10);
+        Governor game = new Governor(3,6);
         //humanEntry(game);
-        ITrainablePlayer player = new SarsaAI(0.01,0.5,0.1,0.1,2000,game);
+        //ITrainablePlayer player = new SarsaAI(0.01,0.5,0.1,0.1,100,game);
+        ITrainablePlayer player = new QlearningAI(0.01,0.5,0.1,0.1,100,game);
+        //ITrainablePlayer player = new MonteCarloAI(0.3, 0.5,0.1,10000,game);
         player.train();
         System.out.println("Training finished!");
     }
