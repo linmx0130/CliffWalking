@@ -1,6 +1,6 @@
 CliffWalking
 ===
-A simple platform to play with reinforcement AI. 
+A simple platform to play with reinforcement learning AI. 
 This problem (cliff walking) problem is from *Reinforcement Learning: An Introduction (2nd edition)*. The draft of this 
 book could be downloaded from the [author's homepage](https://webdocs.cs.ualberta.ca/~sutton/).
 
@@ -19,9 +19,8 @@ each step until it gets to the destination.
 * Human Interface(Human.java)
 
 ## TODO List
-
-* GUI for show the behavior of AIs.
-
+* Q-learning AI
+* A GUI to show the behavior of AIs.
 
 ## License
 Please check LICENSE for more details.
